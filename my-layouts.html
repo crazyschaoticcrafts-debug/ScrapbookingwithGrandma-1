@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,28 +13,45 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Pick My Scrapbook Layout</title>
+    <title>Scrapbooking Grandma Memories</title>
     <link rel="stylesheet" href="css/style.css">
 
     <style>
-        /* Smaller photo size */
-        .small-photo {
-            width: 220px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 0 6px rgba(0,0,0,0.2);
+        .memory-entry {
+            margin-bottom: 45px;
+            padding: 20px;
+            background: #fffbea;
+            border-radius: 10px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.15);
         }
 
-        .video-grid iframe {
-            width: 350px;
-            height: 200px;
-            border-radius: 8px;
+        .memory-entry img.thumbnail {
+            width: 260px;
+            border-radius: 10px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.25);
         }
 
-        .choice-layout {
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #ddd;
+        .memory-buttons a {
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 10px 16px;
+            background: #ffd84d;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+            box-shadow: 0 0 4px rgba(0,0,0,0.2);
+        }
+
+        .memory-buttons a:hover {
+            background: #ffcc00;
+        }
+
+        .memory-description {
+            max-width: 700px;
+            margin-top: 15px;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -50,7 +68,7 @@
         <a href="documents.html">Organizing</a>
         <a href="general-layouts.html">My Scrapbook Layouts</a>
         <a href="one-cut.html">One Cut Endless Layouts</a>
-        <a href="my-layouts.html" class="active">Your Pick My Scrapbook Layout</a>
+        <a href="my-layouts.html" class="active">Scrapbooking Grandma Memories</a>
         <a href="card-supply-organizer.html">Card Section</a>
 
         <h3>Holiday</h3>
@@ -62,142 +80,109 @@
     <!-- MAIN CONTENT -->
     <div class="main-content">
 
-        <h1 class="page-title section-yellow">Your Pick My Scrapbook Layout</h1>
+        <h1 class="page-title section-yellow">Scrapbooking Grandma Memories</h1>
         <p class="intro-text">
-            You pick the layout — I scrapbook it!  
-            Look for the 💛 yellow color whenever you want to see the interactive You‑Pick series.
+            A collection of scrapbook layouts created from Grandma’s favorite memories — newest videos at the top.
         </p>
 
-        <!-- ⭐ YOUR CHOICE LAYOUTS ⭐ -->
+        <!-- ⭐ NEWEST FIRST ⭐ -->
 
-        <section class="layout-section your-choice">
-            <h2 class="layout-title">🎨 Your Choice Layouts</h2>
+        <!-- Shaving Cream Battle -->
+        <div class="memory-entry">
+            <h2>Shaving Cream Battle! | Amelia’s Funny Memory with Dad</h2>
+            <img src="images/shavingcreamthumb.jpg" class="thumbnail" alt="Shaving Cream Layout Thumbnail">
 
-            <!-- Kenneth -->
-            <div class="choice-layout">
-                <h3>Kenneth</h3>
-                <div class="photo-gallery">
-                    <img src="images/Kenneth.jpeg" class="small-photo" alt="Kenneth Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/GRL9dT_kBdw" allowfullscreen></iframe>
-                </div>
+            <div class="memory-description">
+                Amelia chose the memory — and Grandma created the layout! ❤️💙  
+                Inspired by the red and blue shaving cream colors, this playful page is filled with stars, fun embellishments, and lots of storytelling details.
             </div>
 
-            <!-- Abigail -->
-            <div class="choice-layout">
-                <h3>Abigail</h3>
-                <div class="photo-gallery">
-                    <img src="images/Abigail.jpeg" class="small-photo" alt="Abigail Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/_JPX8QV4kFs" allowfullscreen></iframe>
-                </div>
+            <div class="memory-buttons">
+                <a href="https://youtu.be/zzzr11Hstcc" target="_blank">🎥 Watch Video</a>
+                <a href="https://design.cricut.com/landing/project-detail/6a7b5a511d149a20f4ced7e8" target="_blank">🖨 Cricut Project</a>
+                <a href="images/shavingcreamsketch.png" target="_blank">📐 View Sketch</a>
+            </div>
+        </div>
+
+        <!-- His Favorite Toy -->
+        <div class="memory-entry">
+            <h2>His Favorite Toy ❤️ | Paul at 2½ Years Old</h2>
+            <img src="images/favoritetoythumb.jpg" class="thumbnail" alt="Favorite Toy Layout Thumbnail">
+
+            <div class="memory-description">
+                A sweet memory of Paul and his favorite farm toy — preserved with a full farm scene including barn, tractor, animals, and storytelling details.
             </div>
 
-            <!-- Viewer 1 -->
-            <div class="choice-layout">
-                <h3>Viewer 1</h3>
-                <div class="photo-gallery">
-                    <img src="images/viewer 1.jpeg" class="small-photo" alt="Viewer 1 Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/WsEjSl24BO4" allowfullscreen></iframe>
-                </div>
+            <div class="memory-buttons">
+                <a href="https://youtu.be/gHTGf9Ne4tw" target="_blank">🎥 Watch Video</a>
+                <a href="images/favoritetoysketch.jpg" target="_blank">📐 View Sketch</a>
+            </div>
+        </div>
+
+        <!-- Little Cowgirl -->
+        <div class="memory-entry">
+            <h2>Little Cowgirl, Big Memories 🤠 | 12x12 Scrapbook Layout</h2>
+            <img src="images/cowgirlthumb.jpg" class="thumbnail" alt="Cowgirl Layout Thumbnail">
+
+            <div class="memory-description">
+                A Western-themed layout with cowboy boots, rope, horseshoes, cactus, and soft pinks to keep the page playful and sweet.
             </div>
 
-            <!-- David -->
-            <div class="choice-layout">
-                <h3>David</h3>
-                <div class="photo-gallery">
-                    <img src="images/David.jpeg" class="small-photo" alt="David Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/0qkF933GgRU" allowfullscreen></iframe>
-                </div>
+            <div class="memory-buttons">
+                <a href="https://youtu.be/mXxWlrHHoEU" target="_blank">🎥 Watch Video</a>
+                <a href="https://design.cricut.com/landing/project-detail/6a8a09d1a713a7d59163594f" target="_blank">🖨 Cricut Project</a>
+                <a href="images/lillisketch.jpg" target="_blank">📐 View Sketch</a>
+            </div>
+        </div>
+
+        <!-- Girl & Her Cat -->
+        <div class="memory-entry">
+            <h2>Scrapbooking a Girl & Her Cat | Lorelei & Hickory</h2>
+            <img src="images/loreleihickorythumb.jpg" class="thumbnail" alt="Lorelei Hickory Layout Thumbnail">
+
+            <div class="memory-description">
+                A colorful window-scene layout celebrating the sweet bond between Lorelei and her kitty Hickory.
             </div>
 
-            <!-- Viewer 2 -->
-            <div class="choice-layout">
-                <h3>Viewer 2</h3>
-                <div class="photo-gallery">
-                    <img src="images/viewer 2.jpeg" class="small-photo" alt="Viewer 2 Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/Q8VFbdRxlx0" allowfullscreen></iframe>
-                </div>
+            <div class="memory-buttons">
+                <a href="https://youtu.be/FSWnnBv_eb0" target="_blank">🎥 Watch Video</a>
+                <a href="https://design.cricut.com/landing/project-detail/6a8f571f06112fab46367c99" target="_blank">🖨 Cricut Project</a>
+                <a href="images/loreleihickorysketch.jpg" target="_blank">📐 View Sketch</a>
+            </div>
+        </div>
+
+        <!-- Sweet as Honey -->
+        <div class="memory-entry">
+            <h2>Sweet as Honey 💜 | Baby Layout</h2>
+            <img src="images/loreleigarden.jpg" class="thumbnail" alt="Sweet as Honey Thumbnail">
+
+            <div class="memory-description">
+                A soft and sweet baby layout using purples, blues, and greens — finished with a perfect “Sweet as Honey” border.
             </div>
 
-            <!-- Viewer 3 -->
-            <div class="choice-layout">
-                <h3>Viewer 3</h3>
-                <div class="photo-gallery">
-                    <img src="images/viewer 3.jpeg" class="small-photo" alt="Viewer 3 Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/I3o13pVXcrQ" allowfullscreen></iframe>
-                </div>
+            <div class="memory-buttons">
+                <a href="https://youtu.be/WrFdLLRvL5I" target="_blank">🎥 Watch Video</a>
+                <a href="images/loreleigardensketch.jpg" target="_blank">📐 View Sketch</a>
+            </div>
+        </div>
+
+        <!-- Summer Adventures -->
+        <div class="memory-entry">
+            <h2>Summer Adventures 🚲🌸 | Fun 12x12 Scrapbook Layout</h2>
+            <img src="images/letsridethumb.jpg" class="thumbnail" alt="Summer Adventures Thumbnail">
+
+            <div class="memory-description">
+                A bright and cheerful summer bike‑riding layout using orange, turquoise, and yellow papers with flowers, hearts, and sunshine.
             </div>
 
-            <!-- Charlotte -->
-            <div class="choice-layout">
-                <h3>Charlotte</h3>
-                <div class="photo-gallery">
-                    <img src="images/Charlotte.jpeg" class="small-photo" alt="Charlotte Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/m5xYIPmfR5k" allowfullscreen></iframe>
-                </div>
+            <div class="memory-buttons">
+                <a href="https://youtu.be/9zKr-g2bM4M" target="_blank">🎥 Watch Video</a>
+                <a href="https://design.cricut.com/landing/project-detail/6a89f737922c4d67460aea8c" target="_blank">🖨 Cricut Project</a>
+                <a href="images/letsridesketch.jpg" target="_blank">📐 View Sketch</a>
             </div>
-
-            <!-- Amelia -->
-            <div class="choice-layout">
-                <h3>Amelia</h3>
-                <div class="photo-gallery">
-                    <img src="images/Amelia.jpeg" class="small-photo" alt="Amelia Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/sSr8STh6Uns" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <!-- Lilli -->
-            <div class="choice-layout">
-                <h3>Lilli</h3>
-                <div class="photo-gallery">
-                    <img src="images/Lilli.jpeg" class="small-photo" alt="Lilli Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/u8ydezguRLo" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <!-- Kristina -->
-            <div class="choice-layout">
-                <h3>Kristina</h3>
-                <div class="photo-gallery">
-                    <img src="images/Kristina.jpeg" class="small-photo" alt="Kristina Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/FqDAxSSNGnc" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <!-- Lorelei -->
-            <div class="choice-layout">
-                <h3>Lorelei</h3>
-                <div class="photo-gallery">
-                    <img src="images/Lorelei.jpeg" class="small-photo" alt="Lorelei Layout">
-                </div>
-                <div class="video-grid">
-                    <iframe src="https://www.youtube.com/embed/ii6VH1e5XKU" allowfullscreen></iframe>
-                </div>
-            </div>
-
-        </section>
+        </div>
 
     </div> <!-- end main-content -->
 </div> <!-- end page-container -->
 </body>
 </html>
-
